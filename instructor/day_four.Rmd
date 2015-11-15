@@ -79,6 +79,8 @@ system.time(
   })
 ```
 
+> side note - a good practice problem here is to use break to find the first number that is divisible by 3 ,4, and 7 - for(i in 1:100){if(i%%3==0&i%%4==0&i%%7==0)break} 
+
 Next we move on to control structures, such as if statements. ``If" statements are very useful when you want to assign different tasks to different subsets of data using a single for-loop. The basic syntax looks like the following: if(condition){statement} else{other statement}
 
 > side note - there is no `elseif` or `elif` keyword in R, which will be confusing to folks coming from Matlab and Python
@@ -271,6 +273,8 @@ these are called anonymous functions - they aren't actually any different, but y
 lapply(heights, FUN = function(x) x %/% 12)
 ```
 
+> side note - could be good to discuss how lapply can be used to merge datasets by writing a function that takes information from one dataset (a row at a time), identifies the corresponding row in the other dataset, and then extracts the desired information  
+
 ## lapply has limits
 
 ```{r}
@@ -312,6 +316,8 @@ system.time(mcMap(median, dat, na.rm=TRUE))
 so that's not any better, but this is a small dataset
 
 # Packages
+
+> side note - teaching students to make their own packages may be a little advanced for an intro course. It might make more sense to cover how to modify functions from exisitng packages to adjust what they do
 
 ** Real artists ship - Steve Jobs **
 
