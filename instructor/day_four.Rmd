@@ -474,7 +474,7 @@ export(in_to_cm)
 export(in_to_m)
 ```
 
-or you can have roxygen2 handle it for you by adding `#' @export` in the function blocks you want to have exported
+or you can have roxygen2 handle it for you by adding `#' @export` in the function blocks you want to have exported 
 
 ```
 #' Converts inches to centimeters
