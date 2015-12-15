@@ -79,7 +79,7 @@ system.time(
   })
 ```
 
-> side note - a good practice problem here is to use break to find the first number that is divisible by 3 ,4, and 7 - for(i in 1:100){if(i%%3==0&i%%4==0&i%%7==0)break} 
+> side note - a good practice problem here is to use break to find the first number that is divisible by 3 ,4, and 7 -- for(i in 1:100){if(i%%3==0&i%%4==0&i%%7==0)break} 
 
 Next we move on to control structures, such as if statements. ``If" statements are very useful when you want to assign different tasks to different subsets of data using a single for-loop. The basic syntax looks like the following: if(condition){statement} else{other statement}
 
