@@ -637,7 +637,7 @@ for(i in 1:length(y)){
 How should we count the number of the words appear in each act? Create a wrapper function that counts the number of the words and returns the number.
 
 ```{r}
-countR <- function(z){
+countR <- function(z){ 
   return(c(length(grep("Romeo", z, perl=T)), length(grep("Juliet", z, perl=T)))) 
 }
 lapply(x, countR)
