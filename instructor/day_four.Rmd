@@ -9,7 +9,7 @@ output: pdf_document
 knitr::opts_knit$set(root.dir = '../')
 ```
 
-## Introduction
+## Introduction 
 
 Remember how we said that R started off as a functional language? This means that, underneath the hood, R is built on many small functions that can be grouped together in smart ways to do powerful things. It also means that, if you want to do more complicated things in R than run summary statistics and linear models, you'll need to learn how to create and use functions.
 
